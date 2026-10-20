@@ -1,0 +1,202 @@
+/*CONFIGURACIÓN GENERAL*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+}
+
+
+/* CONTENEDOR PRINCIPAL*/
+
+.container {
+    width: 100%;
+}
+
+
+/* HEADER*/
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo y título */
+
+.encabezadoLogo {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    gap: 15px;
+}
+
+.encabezadoLogo h1 {
+    color: red;
+    margin: 0;
+}
+
+.encabezadoLogo img {
+    display: block;
+}
+
+
+/* MENÚ DE NAVEGACIÓN*/
+
+nav {
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+/* Efecto al pasar el mouse */
+
+nav ul li a:hover {
+    background-color: #460ce7;
+    border-radius: 5px;
+}
+
+
+/* DISTRIBUCIÓN PRINCIPAL*/
+
+.layout {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+
+/* MAIN*/
+
+main {
+    background: #000000;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/*ARTÍCULOS*/
+
+article {
+    background: #6d0101;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+/*SECCIONES DE LOS AUTOS*/
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px red;
+}
+
+
+/* Texto de las secciones */
+
+section p {
+    text-align: justify;
+    padding-right: 5px;
+}
+
+
+/* Títulos */
+
+section h3 {
+    color: #6d0101;
+}
+
+
+/*FOOTER DENTRO DEL MAIN*/
+
+.main-footer {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*ASIDE*/
+
+aside {
+    color: #ffffff;
+    background-color: #020202;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+/* Sección dentro del Aside */
+
+aside section {
+    background-color: #7d7e7d;
+    margin-bottom: 30px;
+}
+
+
+/* Lista de autos Aside */
+
+aside ul {
+    padding-left: 25px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+aside ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: red;
+}
+
+
+
+/*  FOOTER PRINCIPAL*/
+
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
